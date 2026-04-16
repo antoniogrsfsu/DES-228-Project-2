@@ -8,10 +8,9 @@ This project aims to portray my definition of community through an interactive w
 
 # Technical Overview
 
-Coded in HTML and CSS with Visual Studio Code with an emphasis on using psuedo class selectors to create hover effects.
+Coded in HTML and CSS using Visual Studio Code. Uses a lot of keyframe animations to create motion that guides the user from page to page.
 
 
 # Acknoledgement
 Lyrics from "Feather (feat. Cise Starr & Akin from CYNE)" by Nujabes
-
-Here will be any code I borrow from the internet with credit given to the authors
+Fonts used are "Zapfino" and "Herculanum" from onlinewebfonts.com

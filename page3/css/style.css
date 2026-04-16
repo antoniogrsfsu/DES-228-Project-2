@@ -1,0 +1,244 @@
+@font-face {
+    font-family: "Herculanum";
+    src: url("https://db.onlinewebfonts.com/t/002b944b211d383987536f1ecf684bca.eot");
+    src: url("https://db.onlinewebfonts.com/t/002b944b211d383987536f1ecf684bca.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/002b944b211d383987536f1ecf684bca.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/002b944b211d383987536f1ecf684bca.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/002b944b211d383987536f1ecf684bca.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/002b944b211d383987536f1ecf684bca.svg#Herculanum")format("svg");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #cf554a;
+    overflow: hidden;
+}
+
+.so {
+    font-family: "Herculanum";
+    font-size: 4em;
+    color: white;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    animation-name: slide1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.im {
+    font-family: "Herculanum";
+    font-size: 4em;
+    color: white;
+    position: absolute;
+    top: 15%;
+    left: 49.5%;
+    animation-name: slide2;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.keepin {
+    font-family: "Herculanum";
+    font-size: 4em;
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 46%;
+    animation-name: slide3;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.it {
+    font-family: "Herculanum";
+    font-size: 4em;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    animation-name: slide4;
+    animation-duration: 2s;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.vertical {
+    font-family: "Herculanum";
+    font-size: 4em;
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    animation-name: slide5;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    animation: colorchange 2s 8s;
+    animation-fill-mode: forwards;
+}
+
+.forever {
+    font-family: "Herculanum";
+    font-size: 4em;
+    color: white;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    animation-name: slide6;
+    animation-duration: 2s;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.elevator {
+    font-family: "Herculanum";
+    font-size: 4em;
+    color: white;
+    position: absolute;
+    top: 65%;
+    left: 45%;
+    animation-name: slide7;
+    animation-duration: 2s;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+
+}
+
+@keyframes slide1 {
+    from {
+        position: absolute;
+        top: 200%;
+        left: 50%;
+    }
+    to {
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        opacity: 1;
+    }
+
+}
+
+@keyframes slide2 {
+    from {
+        position: absolute;
+        top: 200%;
+        left: 49.5%;
+    }
+    to {
+        position: absolute;
+        top: 15%;
+        left: 49.5%; 
+        opacity: 1;
+    }
+
+}
+
+@keyframes slide3 {
+    from {
+        position: absolute;
+        top: 200%;
+        left: 46%;
+    }
+    to {
+        position: absolute;
+        top: 25%;
+        left: 46%; 
+        opacity: 1;
+    }
+
+}
+
+@keyframes slide4 {
+    from {
+        position: absolute;
+        top: 200%;
+        left: 50%;
+    }
+    to {
+        position: absolute;
+        top: 35%;
+        left: 50%; 
+        opacity: 1;
+    }
+
+}
+
+@keyframes slide5 {
+    from {
+        position: absolute;
+        top: 200%;
+        left: 45%;
+    }
+    to {
+        position: absolute;
+        top: 45%;
+        left: 45%; 
+        opacity: 1;
+    }
+
+}
+
+@keyframes slide6 {
+    from {
+        position: absolute;
+        top: 200%;
+        left: 45%;
+    }
+    to {
+        position: absolute;
+        top: 55%;
+        left: 45%; 
+        opacity: 1;
+    }
+
+}
+
+@keyframes slide7 {
+    from {
+        position: absolute;
+        top: 200%;
+        left: 45%;
+    }
+    to {
+        position: absolute;
+        top: 65%;
+        left: 45%; 
+        opacity: 1;
+    }
+
+}
+
+@keyframes colorchange {
+    from {
+        color: white;
+    }
+
+    to {
+        color: #12589d;
+
+    }
+
+}

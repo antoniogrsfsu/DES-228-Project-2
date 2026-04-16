@@ -18,109 +18,102 @@ body {
     width: 100%;
     min-height: 100vh;
     background-color: #cf554a;
+    align-items: center;
+    display: flex;
     position: relative;
-    overflow: hidden;
-
+    
 }
 
-
-
-.driftin {
+p {
     font-family: "Herculanum";
     font-size: 4em;
-    color: white;
     position: absolute;
-    top: 15%;
+    top: 50%;
     left: 20%;
-    animation-name: drift;
-    animation-duration: 10s;
-    animation-fill-mode: forwards;
-    animation-delay: 0.5s;
-
-}
-
-.like {
-    font-family: "Herculanum";
-    font-size: 4em;
+    animation-name: slidedown;
+    animation-duration: 3s;
     color: white;
-    position: absolute;
-    top: 15%;
-    left: 43%;
+    
+   
+
 }
 
-.feather {
+h1 {
     font-family: "Herculanum";
     font-size: 4em;
+    font-weight: normal;
     position: absolute;
-    top: 15%;
-    left: 56%;
-    animation-name: feather;
-    animation-duration: 6s;
-    animation-delay: 0.5s;
+    top: 60%;
+    left: 33%;
+    color: black;
+    animation-name: slideup;
+    animation-duration: 3s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
+    opacity: 0;
+    
+    
+    
+
 }
 
 a {
     text-decoration: none;
     color: white;
-    animation-name: colorchange;
-    animation-duration: 2s;
-    animation-delay: 7s;
+    animation-name: soul;
+    animation-duration: 3s;
+    animation-delay: 4s;
     animation-fill-mode: forwards;
+    
 }
 
-@keyframes drift {
+
+
+
+@keyframes slideup {
     from {
     position: absolute;
-    top: 15%;
-    left: 20%;
+    translate: 0% 200%;
+    opacity: 0;}
 
-    }
-
-    to {
+  to {
     position: absolute;
-    top: 15%;
-    left: -30%;
-    }
+    translate: 0% 5%;
+    opacity: 1;}
 }
 
-@keyframes feather {
-    0% {
+
+
+@keyframes slidedown {
+  from {
+    position: absolute;
+    translate: 0% -200%;
+    opacity: 0;
+    
+  }
+
+  to {
+    position: absolute;
+    translate: 0% 5%;
+    opacity: 1;
+    
+  
+    
+  }
+}
+
+@keyframes soul {
+    from {
         position: absolute;
-        
-          
-    }
-
-    50% {
-        position:absolute;
-        transform: rotate(70deg);
-        top: 50%;
-        left: 30%;
-    }
-
-    75% {
-        position:absolute;
-        transform: rotate(-140deg);
-        top: 60%;
-        left: 65%;
-    }
-
-    100% {
-         position: absolute;
-         transform: rotate(0deg);
-         top: 80%;
-         left: 35%;
-         
-        
-
-    }
-}
-
-@keyframes colorchange {
-    from {
         color: white;
+        
+
     }
     to {
+        position: absolute;
+        transform: translateY(-200px);
         color: #12589d;
+       
+        
     }
 }
